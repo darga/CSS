@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sticky Position</title>
+    <style>
+        body {
+            margin: 0;
+            background: #0f0f0f;
+        }
+
+        .container-box {
+            margin: 10px;
+            /* width: 480px; */
+            display: flex;
+            justify-content: space-between;
+            background: lightgray;
+        }
+
+        .inner-container-1 {
+            margin: 30px 0;
+            width: 25%;
+            height: 200px;
+            background-color: rgb(227, 136, 136);
+        }
+
+        .inner-container-2 {
+            margin: 60px 30px;
+            width: 140px;
+            height: 140px;
+            border-radius: 100px;
+            background-color: rgb(99, 78, 145);
+        }
+
+        .inner-container-3 {
+            margin: 30px 0;
+            width: 25%;
+            height: 200px;
+            background-color: rgb(103, 177, 86);
+        }
+
+
+        .content {
+            height: 1500px;
+            color: #ffffff;
+        }
+
+       
+        .sticky-header {
+            position: sticky;
+            top: 0;
+            background-color: rgb(105, 209, 230);
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .fixed-container {
+            position: fixed;
+            right: 0rem;
+            bottom: 2rem;
+            padding: 5px;
+            border-radius: 5px;
+            width: 2%;
+            height: 140px;
+            writing-mode: vertical-lr;
+            cursor: pointer;
+            background: rgb(22, 50, 231);
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-box">
+        <div class="inner-container-1"></div>
+        <div class="inner-container-2"></div>
+        <div class="inner-container-3"></div>
+    </div>
+    <h1 class="sticky-header">Position Sticky Menu</h1>
+    <div class="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+        electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+        Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+        PageMaker including versions of Lorem Ipsum.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+    </div>
+    <button class="fixed-container">Chat with us</button>
+
+</body>
+
+</html>
